@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sde_bbdm"
+version = "1.0"
+description = "Score-Based Image-to-Image Brownian Bridge (v1.0)"
+authors = []
+packages = [
+    { include = "sde_bbdm" },
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.1.2"
+torchmanager = "^1.2"
+torchmanager-diffusion = "*"
+einops = "^0.6.1"
+lpips = "^0.1.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

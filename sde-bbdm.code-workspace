@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.autopep8"
+		},
+		"workbench.list.fastScrollSensitivity": 1,
+		"terminal.integrated.fastScrollSensitivity": 1
+	}
+}

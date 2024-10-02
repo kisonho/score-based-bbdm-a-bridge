@@ -1,0 +1,8 @@
+torch>=2.1.2
+torchvision>=0.16.2
+torchmanager>=1.2
+torchmanager-diffusion
+einops>=0.6.1
+lpips>=0.1.4
+tensorboard >= 2.13
+scipy >= 1.9.1
